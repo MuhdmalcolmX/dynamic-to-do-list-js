@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const addButton = document.getElementById('add-task-btn');
     const taskInput = document.getElementById('task-input');
     const taskList = document.getElementById('task-list');
-
+    
     // Create the addTask Function
     function addTask() {
         // Task Creation and Removal
@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         taskInput.value = '';
     }
-
 
     // Attach Event Listeners
     addButton.addEventListener('click', addTask);
